@@ -38,7 +38,7 @@ const client = new Discord.Client();
 client.embed = new EmbedMaker();
 
 client.on('message', async message => {
-    const myembed = new client.embed.new("This is my embed!", "This is my description!", "This is the footer", "#ffffff", true);
+    const myembed = new client.embed.make("This is my embed!", "This is my description!", "This is the footer", "#ffffff", true);
     message.channel.send({embed: myembed});
 });
 ```
@@ -51,7 +51,7 @@ const client = new Discord.Client();
 client.embed = new EmbedMaker();
 
 client.on('message', async message => {
-    const myembed = new client.embed.new("This is my embed!", "This is my description!", "This is the footer", "#ffffff", true).addField("This is the field name", "This is the field description", true);
+    const myembed = new client.embed.make("This is my embed!", "This is my description!", "This is the footer", "#ffffff", true).addField("This is the field name", "This is the field description", true);
     message.channel.send({embed: myembed});
 });
 ```
