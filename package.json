@@ -1,6 +1,6 @@
 {
     "name": "src-embeds",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "An easy way to make embeds using discord.js",
     "main": "index.js",
     "scripts": {
@@ -13,7 +13,7 @@
         "node": "15.x"
     },
     "repository": {
-        "url": "https://github.com/Madnessik/src-embeds"
+        "url": "https://github.com/Madnesssik/src-embeds"
     },
     "license": "MIT",
     "keywords": [
