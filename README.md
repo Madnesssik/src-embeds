@@ -35,7 +35,7 @@ const embeds = require('src-embeds');
 const Discord = require('discord.js');
 const EmbedMaker = require('src-embeds');
 const client = new Discord.Client();
-const client.embed = new EmbedMaker();
+client.embed = new EmbedMaker();
 
 client.on('message', async message => {
     const myembed = new client.embed.new("This is my embed!", "This is my description!", "This is the footer", "#ffffff", true);
@@ -48,7 +48,7 @@ client.on('message', async message => {
 const Discord = require('discord.js');
 const EmbedMaker = require('src-embeds');
 const client = new Discord.Client();
-const client.embed = new EmbedMaker();
+client.embed = new EmbedMaker();
 
 client.on('message', async message => {
     const myembed = new client.embed.new("This is my embed!", "This is my description!", "This is the footer", "#ffffff", true).addField("This is the field name", "This is the field description", true);
