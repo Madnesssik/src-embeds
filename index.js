@@ -5,6 +5,7 @@ module.exports = class Embed {
       footer = this.footer
       timestamp = this.timestamp
       color = this.color
+      test2 = this.test
     }
     make(title, description, footer, timestamp, color) {
         const Discord = require('discord.js');
